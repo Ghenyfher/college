@@ -1,0 +1,37 @@
+#include<iostream>
+#include<stack>
+//viagem de balsa
+using namespace std;
+
+int main() {
+	stack <string> placasdecarro;
+	placasdecarro.push(" ASD 654");
+	placasdecarro.push("BCV 845");
+	placasdecarro.push("COP 789");
+	placasdecarro.push("DER 874");
+	
+	cout << "Número de carros :" <<placasdecarro.size()<<"\n";
+	
+	cout<< "Carro que vai sair da balsa: "<< placasdecarro.top()<<"\n";
+	;
+
+	placasdecarro.pop();
+	
+	cout << "Número de carros :" <<placasdecarro.size()<<"\n";
+	
+	cout << "Carro que vai sair da balsa: "<< placasdecarro.top() << "\n";	
+	
+	placasdecarro.pop();
+	
+	cout << "Número de carros :" <<placasdecarro.size()<<"\n";
+	
+	cout << "Carro que vai sair da balsa: "<< placasdecarro.top() << "\n";
+	
+	placasdecarro.pop();
+	
+	cout << "Número de carros :" <<placasdecarro.size()<<"\n";
+	
+	cout << "Carro que vai sair da balsa: "<< placasdecarro.top() << "\n";
+	
+		return 0;
+}
